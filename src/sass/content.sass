@@ -397,7 +397,7 @@ ul.info li
       box-sizing: border-box
       border: 1px solid rgb(11, 46, 83)
       border-radius: 0px 0px 20px 20px
-      background: rgb(3, 32, 64)
+      background: #1D2023
       padding: 0 25px
       margin-bottom: 50px
    &__logo 
@@ -511,6 +511,10 @@ ul.info li
                .svg 
                   path 
                      fill: white
+         &:first-child
+            margin-left: 0
+         &:last-child
+            margin-right: 0
    &__info 
       margin-left: 15px
       a 
@@ -649,7 +653,7 @@ ul.info li
       -webkit-text-stroke: 2px rgba(0, 0, 0, 0.1)
    .swiper1 
       overflow: hidden
-      padding: 24px 20px
+      padding: 24px 26px
       .swiper-slide 
          a 
             display: flex
@@ -831,7 +835,7 @@ ul.info li
       width: 100%
       object-fit: cover 
       border-radius: 30px
-      height: 400px
+      height: 370px
       margin-bottom: 50px
    &__text
       margin-bottom: 50px
@@ -868,7 +872,7 @@ ul.info li
          overflow: hidden
          object-fit: cover 
          border-radius: 30px
-         height: 400px
+         height: 370px
          margin-bottom: 20px
 .news-page
    padding-bottom: 150px
@@ -880,7 +884,7 @@ ul.info li
       align-items: flex-start
       justify-content: flex-start
       flex-direction: column
-      width: 32.2%
+      width: 31.9%
       height: auto
       border-radius: 30px
       box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1)
@@ -892,13 +896,13 @@ ul.info li
       img 
          width: 100%
          object-fit: contain 
-         height: 307px
+         height: 213px
          border-radius: 30px
          margin-bottom: 30px
       span 
          display: block
          color: rgb(9, 140, 60)
-         font-size: 20px
+         font-size: 18px
          font-weight: 600
          line-height: 24px
          text-transform: uppercase
@@ -908,14 +912,14 @@ ul.info li
          margin-bottom: 17px
          transition: 0.5s 
          color: rgb(58, 57, 55)
-         font-size: 30px
+         font-size: 23px
          font-weight: 700
          font-family: 'TT Norms'
          line-height: 35px
          text-transform: uppercase
       p 
          color: rgba(58, 57, 55, 0.6)
-         font-size: 18px
+         font-size: 16px
          font-weight: 500
          line-height: 24px
       &:hover 
@@ -970,42 +974,44 @@ ul.info li
                color: $green
       div 
          width: 100%
-         max-width: 400px 
+         max-width: 74%
          span 
             display: block
             transition: 0.5s 
             color: rgb(58, 57, 55)
             font-family: 'TT Norms'
-            font-size: 22px
+            font-size: 20px
             font-weight: 700
-            line-height: 35px
+            line-height: 30px
             text-transform: uppercase
             margin-bottom: 10px
          p 
             color: rgba(58, 57, 55, 0.6)
-            font-size: 15px
+            font-size: 14px
             font-weight: 500
             line-height: 24px
+      img 
+         width: 80px
 .contacts 
    &__row 
       justify-content: space-between
       border-radius: 30px
       box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1)
       background: rgb(255, 255, 255)
-      padding: 50px 89px
+      padding: 50px 40px
       margin-bottom: 20px
    &__item 
       span 
          display: block
          color: rgb(9, 140, 60)
-         font-size: 16px
+         font-size: 14px
          font-weight: 600
          line-height: 24px
          text-transform: uppercase
          margin-bottom: 5px
       a, p 
          color: rgb(58, 57, 55)
-         font-size: 25px
+         font-size: 20px
          font-weight: 600
          line-height: 24px
          text-transform: uppercase
@@ -1036,7 +1042,7 @@ ul.info li
             td 
                background: $green
                color: rgb(255, 255, 255)
-               font-size: 18px
+               font-size: 14px
                font-weight: 700
                line-height: 35px
                font-family: 'TT Norms'
@@ -1051,7 +1057,7 @@ ul.info li
                height: 42px
                background: white
                color: rgb(58, 57, 55)
-               font-size: 18px
+               font-size: 14px
                font-weight: 400
                line-height: 35px
                font-family: 'TT Norms'
@@ -1086,7 +1092,7 @@ ul.info li
          overflow: hidden
          .swiper-slide
             overflow: hidden
-            height: 400px
+            height: 350px
             border-radius: 30px
             img 
                width: 100%
@@ -1192,14 +1198,14 @@ ul.info li
          box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1)
          overflow: hidden
          width: 100%
-         max-width: 624px 
+         max-width: 47%
          object-fit: contain
       div 
          width: 100%
-         max-width: 625px 
+         max-width: 46%
          p 
             color: rgba(9, 9, 9, 0.6)
-            font-size: 20px
+            font-size: 18px
             font-weight: 500
             line-height: 24px
             margin-bottom: 20px
@@ -1236,3 +1242,13 @@ ul.info li
          font-weight: 500
          font-size: 20px
          line-height: 24px
+.page .news 
+   .swiper1 .swiper-slide a img
+      height: 200px
+   .swiper1 .swiper-slide a h3
+      font-size: 21px
+      line-height: 27px
+   .swiper1 .swiper-slide a p
+      font-size: 16px
+   .swiper1 .swiper-slide a span
+      font-size: 18px

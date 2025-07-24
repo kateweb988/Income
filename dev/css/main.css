@@ -179,8 +179,11 @@ a {
     .container {
       max-width: 540px !important; } }
 
-.nav .container, .footer .container, .sec .container, .page .news .container {
+.nav .container, .footer .container {
   max-width: 1381px; }
+
+.sec .container, .page .news .container {
+  max-width: 1000px; }
 
 .d-flex, .q {
   display: flex; }
@@ -826,7 +829,7 @@ ul.info li {
   box-sizing: border-box;
   border: 1px solid #0b2e53;
   border-radius: 0px 0px 20px 20px;
-  background: #032040;
+  background: #1D2023;
   padding: 0 25px;
   margin-bottom: 50px; }
 
@@ -938,6 +941,10 @@ ul.info li {
       color: white; }
       .nav__list li.active a .svg path {
         fill: white; }
+    .nav__list li:first-child {
+      margin-left: 0; }
+    .nav__list li:last-child {
+      margin-right: 0; }
 
 .nav__info {
   margin-left: 15px; }
@@ -1085,7 +1092,7 @@ ul.info li {
     -webkit-text-stroke: 2px rgba(0, 0, 0, 0.1); }
   .news .swiper1 {
     overflow: hidden;
-    padding: 24px 20px; }
+    padding: 24px 26px; }
     .news .swiper1 .swiper-slide a {
       display: flex;
       align-items: flex-start;
@@ -1269,7 +1276,7 @@ ul.info li {
   width: 100%;
   object-fit: cover;
   border-radius: 30px;
-  height: 400px;
+  height: 370px;
   margin-bottom: 50px; }
 
 .about__text {
@@ -1309,7 +1316,7 @@ ul.info li {
     overflow: hidden;
     object-fit: cover;
     border-radius: 30px;
-    height: 400px;
+    height: 370px;
     margin-bottom: 20px; }
 
 .news-page {
@@ -1322,7 +1329,7 @@ ul.info li {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    width: 32.2%;
+    width: 31.9%;
     height: auto;
     border-radius: 30px;
     box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1);
@@ -1334,13 +1341,13 @@ ul.info li {
     .news-page__item img {
       width: 100%;
       object-fit: contain;
-      height: 307px;
+      height: 213px;
       border-radius: 30px;
       margin-bottom: 30px; }
     .news-page__item span {
       display: block;
       color: #098c3c;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 600;
       line-height: 24px;
       text-transform: uppercase;
@@ -1350,14 +1357,14 @@ ul.info li {
       margin-bottom: 17px;
       transition: 0.5s;
       color: #3a3937;
-      font-size: 30px;
+      font-size: 23px;
       font-weight: 700;
       font-family: 'TT Norms';
       line-height: 35px;
       text-transform: uppercase; }
     .news-page__item p {
       color: rgba(58, 57, 55, 0.6);
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 500;
       line-height: 24px; }
     .news-page__item:hover {
@@ -1414,35 +1421,37 @@ ul.info li {
           color: #098c3c; }
     .quality__row div {
       width: 100%;
-      max-width: 400px; }
+      max-width: 74%; }
       .quality__row div span {
         display: block;
         transition: 0.5s;
         color: #3a3937;
         font-family: 'TT Norms';
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 700;
-        line-height: 35px;
+        line-height: 30px;
         text-transform: uppercase;
         margin-bottom: 10px; }
       .quality__row div p {
         color: rgba(58, 57, 55, 0.6);
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
         line-height: 24px; }
+    .quality__row img {
+      width: 80px; }
 
 .contacts__row {
   justify-content: space-between;
   border-radius: 30px;
   box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1);
   background: white;
-  padding: 50px 89px;
+  padding: 50px 40px;
   margin-bottom: 20px; }
 
 .contacts__item span {
   display: block;
   color: #098c3c;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 24px;
   text-transform: uppercase;
@@ -1450,7 +1459,7 @@ ul.info li {
 
 .contacts__item a, .contacts__item p {
   color: #3a3937;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 24px;
   text-transform: uppercase; }
@@ -1482,7 +1491,7 @@ ul.info li {
     .shipment__row table thead td {
       background: #098c3c;
       color: white;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 700;
       line-height: 35px;
       font-family: 'TT Norms';
@@ -1496,7 +1505,7 @@ ul.info li {
       height: 42px;
       background: white;
       color: #3a3937;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: 400;
       line-height: 35px;
       font-family: 'TT Norms'; }
@@ -1527,7 +1536,7 @@ ul.info li {
     overflow: hidden; }
     .gallery__item .swip .swiper-slide {
       overflow: hidden;
-      height: 400px;
+      height: 350px;
       border-radius: 30px; }
       .gallery__item .swip .swiper-slide img {
         width: 100%;
@@ -1630,14 +1639,14 @@ ul.info li {
       box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1);
       overflow: hidden;
       width: 100%;
-      max-width: 624px;
+      max-width: 47%;
       object-fit: contain; }
     .product__flex div {
       width: 100%;
-      max-width: 625px; }
+      max-width: 46%; }
       .product__flex div p {
         color: rgba(9, 9, 9, 0.6);
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         line-height: 24px;
         margin-bottom: 20px; }
@@ -1675,17 +1684,52 @@ ul.info li {
     font-size: 20px;
     line-height: 24px; }
 
-@media screen and (max-width: 1450px) {
-  .news .swiper1 .swiper-slide a h3 {
-    font-size: 28px; } }
+.page .news .swiper1 .swiper-slide a img {
+  height: 200px; }
+
+.page .news .swiper1 .swiper-slide a h3 {
+  font-size: 21px;
+  line-height: 27px; }
+
+.page .news .swiper1 .swiper-slide a p {
+  font-size: 16px; }
+
+.page .news .swiper1 .swiper-slide a span {
+  font-size: 18px; }
+
+@media screen and (max-width: 1480px) {
+  .news .swiper1 .swiper-slide a h3, .news-page__item h3 {
+    font-size: 22px; }
+  .container {
+    max-width: 1200px; }
+  .main__item img {
+    width: 80px; }
+  .main__item p {
+    margin-left: 20px;
+    font-size: 20px; }
+  .main__pic {
+    width: 680px;
+    margin-left: -348px; }
+  .news .swiper1 .swiper-slide a img, .news-page__item img {
+    height: 225px; }
+  .news .swiper1 .swiper-slide a span, .news-page__item span {
+    font-size: 18px; }
+  .news .swiper1 .swiper-slide a p, .news-page__item p {
+    font-size: 16px; }
+  .product__flex img {
+    max-width: 46%; }
+  .product__flex div {
+    max-width: 46%; }
+  .product__flex div p {
+    font-size: 18px; } }
 
 @media screen and (max-width: 1300px) {
   .nav__list li a {
-    font-size: 12px; }
+    font-size: 10px; }
   .footer__title {
     font-size: 180px; }
   .main__item {
-    margin-bottom: 53px; }
+    margin-bottom: 107px; }
   .main__pic {
     width: 620px;
     margin-left: -310px; }
