@@ -315,64 +315,64 @@ html *::-webkit-scrollbar-thumb {
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../fonts/Roboto-Bold.eot");
-  src: url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype"), url("../fonts/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  src: url("/fonts/Roboto-Bold.eot");
+  src: url("/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Bold.woff2") format("woff2"), url("/fonts/Roboto-Bold.woff") format("woff"), url("/fonts/Roboto-Bold.ttf") format("truetype"), url("/fonts/Roboto-Bold.svg#Roboto-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../fonts/Roboto-Medium.eot");
-  src: url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.ttf") format("truetype"), url("../fonts/Roboto-Medium.svg#Roboto-Medium") format("svg");
+  src: url("/fonts/Roboto-Medium.eot");
+  src: url("/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Medium.woff2") format("woff2"), url("/fonts/Roboto-Medium.woff") format("woff"), url("/fonts/Roboto-Medium.ttf") format("truetype"), url("/fonts/Roboto-Medium.svg#Roboto-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Bebas Neue';
-  src: url("../fonts/BebasNeueRegular.eot");
-  src: url("../fonts/BebasNeueRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeueRegular.woff2") format("woff2"), url("../fonts/BebasNeueRegular.woff") format("woff"), url("../fonts/BebasNeueRegular.ttf") format("truetype"), url("../fonts/BebasNeueRegular.svg#BebasNeueRegular") format("svg");
+  src: url("/fonts/BebasNeueRegular.eot");
+  src: url("/fonts/BebasNeueRegular.eot?#iefix") format("embedded-opentype"), url("/fonts/BebasNeueRegular.woff2") format("woff2"), url("/fonts/BebasNeueRegular.woff") format("woff"), url("/fonts/BebasNeueRegular.ttf") format("truetype"), url("/fonts/BebasNeueRegular.svg#BebasNeueRegular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../fonts/Roboto-Regular.eot");
-  src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  src: url("/fonts/Roboto-Regular.eot");
+  src: url("/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Regular.woff2") format("woff2"), url("/fonts/Roboto-Regular.woff") format("woff"), url("/fonts/Roboto-Regular.ttf") format("truetype"), url("/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'TT Norms';
-  src: url("../fonts/TTNorms-Bold.eot");
-  src: url("../fonts/TTNorms-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-Bold.woff2") format("woff2"), url("../fonts/TTNorms-Bold.woff") format("woff"), url("../fonts/TTNorms-Bold.ttf") format("truetype"), url("../fonts/TTNorms-Bold.svg#TTNorms-Bold") format("svg");
+  src: url("/fonts/TTNorms-Bold.eot");
+  src: url("/fonts/TTNorms-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/TTNorms-Bold.woff2") format("woff2"), url("/fonts/TTNorms-Bold.woff") format("woff"), url("/fonts/TTNorms-Bold.ttf") format("truetype"), url("/fonts/TTNorms-Bold.svg#TTNorms-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Bebas Neue';
-  src: url("../fonts/BebasNeueBold.eot");
-  src: url("../fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeueBold.woff2") format("woff2"), url("../fonts/BebasNeueBold.woff") format("woff"), url("../fonts/BebasNeueBold.ttf") format("truetype"), url("../fonts/BebasNeueBold.svg#BebasNeueBold") format("svg");
+  src: url("/fonts/BebasNeueBold.eot");
+  src: url("/fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"), url("/fonts/BebasNeueBold.woff2") format("woff2"), url("/fonts/BebasNeueBold.woff") format("woff"), url("/fonts/BebasNeueBold.ttf") format("truetype"), url("/fonts/BebasNeueBold.svg#BebasNeueBold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'TT Norms';
-  src: url("../fonts/TTNorms-Medium.eot");
-  src: url("../fonts/TTNorms-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-Medium.woff2") format("woff2"), url("../fonts/TTNorms-Medium.woff") format("woff"), url("../fonts/TTNorms-Medium.ttf") format("truetype"), url("../fonts/TTNorms-Medium.svg#TTNorms-Medium") format("svg");
+  src: url("/fonts/TTNorms-Medium.eot");
+  src: url("/fonts/TTNorms-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/TTNorms-Medium.woff2") format("woff2"), url("/fonts/TTNorms-Medium.woff") format("woff"), url("/fonts/TTNorms-Medium.ttf") format("truetype"), url("/fonts/TTNorms-Medium.svg#TTNorms-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'TT Norms';
-  src: url("../fonts/TTNorms-Regular.eot");
-  src: url("../fonts/TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/TTNorms-Regular.woff2") format("woff2"), url("../fonts/TTNorms-Regular.woff") format("woff"), url("../fonts/TTNorms-Regular.ttf") format("truetype"), url("../fonts/TTNorms-Regular.svg#TTNorms-Regular") format("svg");
+  src: url("/fonts/TTNorms-Regular.eot");
+  src: url("/fonts/TTNorms-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/TTNorms-Regular.woff2") format("woff2"), url("/fonts/TTNorms-Regular.woff") format("woff"), url("/fonts/TTNorms-Regular.ttf") format("truetype"), url("/fonts/TTNorms-Regular.svg#TTNorms-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
@@ -475,7 +475,7 @@ input:-moz-placeholder {
   margin-right: 11px; }
 
 .custom-checkbox:checked + label::before {
-  background: url(../img/check2.png) no-repeat center center;
+  background: url(/img/check2.png) no-repeat center center;
   background-size: 8px; }
 
 .swiper-pagination {
@@ -591,7 +591,7 @@ input:-moz-placeholder {
   height: 5px;
   text-align: center;
   vertical-align: top;
-  background: url(../img/down-arrow.png) no-repeat !important;
+  background: url(/img/down-arrow.png) no-repeat !important;
   position: absolute;
   right: -16px;
   top: 8px; }
@@ -1002,7 +1002,7 @@ ul.info li {
     margin-bottom: 3px; }
 
 .header__text {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 24px;
   margin-bottom: 47px;
@@ -1210,7 +1210,7 @@ ul.info li {
     .footer__el span {
       display: block;
       color: rgba(255, 255, 255, 0.5);
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 600;
       line-height: 24px;
       text-align: right;
@@ -1218,7 +1218,7 @@ ul.info li {
       margin-bottom: 10px; }
     .footer__el a, .footer__el p {
       color: white;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 600;
       line-height: 24px;
       text-align: right;
@@ -1233,14 +1233,14 @@ ul.info li {
     align-items: center; }
   .footer__text {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 23px;
     text-transform: uppercase;
     margin-right: 50px; }
   .footer__policy {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 23px;
     text-transform: uppercase; }
@@ -1300,7 +1300,7 @@ ul.info li {
 .about__text {
   margin-bottom: 50px; }
   .about__text p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 24px;
     color: rgba(9, 9, 9, 0.6);
@@ -1316,7 +1316,7 @@ ul.info li {
   background: #dee4ef;
   margin-bottom: 50px; }
   .about__block p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 24px;
     color: rgba(9, 9, 9, 0.6);
@@ -1395,7 +1395,7 @@ ul.info li {
     margin: 40px auto 0;
     font-family: 'TT Norms';
     color: #098c3c;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     display: block;
@@ -1407,7 +1407,7 @@ ul.info li {
       border-bottom: 1px solid #1058a4; }
   .news-page__data {
     color: #098c3c;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 24px;
     text-transform: uppercase;
@@ -1445,7 +1445,7 @@ ul.info li {
         transition: 0.5s;
         color: #3a3937;
         font-family: 'TT Norms';
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
         line-height: 30px;
         text-transform: uppercase;
@@ -1477,7 +1477,7 @@ ul.info li {
 
 .contacts__item a, .contacts__item p {
   color: #3a3937;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   text-transform: uppercase; }
@@ -1598,7 +1598,7 @@ ul.info li {
     line-height: 35px;
     text-transform: uppercase; }
   .product .about__text ul li {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 24px;
     margin-bottom: 3px;
@@ -1625,13 +1625,13 @@ ul.info li {
     padding: 80px 50px; }
     .product__wrap span {
       display: block;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 24px;
       color: #098c3c;
       margin-bottom: 20px; }
     .product__wrap p {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 500;
       line-height: 24px;
       margin-bottom: 3px;
@@ -1678,7 +1678,7 @@ ul.info li {
   .error__box p {
     margin: 60px 0;
     color: rgba(58, 57, 55, 0.6);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 24px;
     text-align: center; }
@@ -1699,7 +1699,7 @@ ul.info li {
   .policy__item p {
     color: rgba(58, 57, 55, 0.6);
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px; }
 
 .page .news .swiper1 .swiper-slide a img {
@@ -1761,7 +1761,7 @@ ul.info li {
     top: 0px;
     z-index: 11;
     overflow: hidden;
-    background: url(../img/bur1.svg) no-repeat; }
+    background: url(/img/bur1.svg) no-repeat; }
   .menu-btn span {
     width: 38px;
     height: 2px;
@@ -1864,7 +1864,7 @@ ul.info li {
     .menu.active {
       transform: translateX(0%); }
   .menu-btn.active {
-    background: url(../img/bur2.svg) no-repeat; }
+    background: url(/img/bur2.svg) no-repeat; }
     .menu-btn.active span:nth-of-type(1) {
       display: none; }
   .menu-btn.active span:nth-of-type(2) {
