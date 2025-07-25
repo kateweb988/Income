@@ -364,7 +364,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener('DOMContentLoaded', function () {
   const swiper1 = new Swiper('.swiper1', {
     slidesPerView: 3,
-    spaceBetween: 70,
+    spaceBetween: 20,
     pagination: {
       el: ".swiper-pagination1",
     },
@@ -388,7 +388,7 @@ document.addEventListener('DOMContentLoaded', function () {
         slidesPerView: 2
       },
       1200: {
-        spaceBetween: 70,
+        spaceBetween: 20,
         slidesPerView: 3
       }
     }
