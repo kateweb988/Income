@@ -1100,8 +1100,8 @@ ul.info li {
     z-index: -1;
     -webkit-text-stroke: 2px rgba(0, 0, 0, 0.1); }
   .news .swiper1 {
-    overflow: hidden;
-    padding: 24px 26px; }
+    overflow: visible;
+    padding: 24px 0px; }
     .news .swiper1 .swiper-slide a {
       display: flex;
       align-items: flex-start;
@@ -1110,9 +1110,9 @@ ul.info li {
       width: 100%;
       height: 100%;
       border-radius: 30px;
-      box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1);
+      box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.1);
       background: white;
-      border: 2px solid transparent;
+      border: 2px solid white;
       padding: 30px; }
       .news .swiper1 .swiper-slide a img {
         width: 100%;
@@ -1279,13 +1279,7 @@ ul.info li {
   margin-bottom: 30px; }
 
 .page .news .swiper1 .swiper-slide a {
-  box-shadow: inherit; }
-
-.page .news .swiper1 .swiper-slide-active a, .page .news .swiper1 .swiper-slide-next a {
-  box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.1); }
-
-.page .news .swiper1 .swiper-slide-next + div a {
-  box-shadow: -4px 4px 40px 0px rgba(0, 0, 0, 0.1); }
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.1); }
 
 .about h1 {
   margin-bottom: 57px; }
