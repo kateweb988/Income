@@ -979,7 +979,7 @@ ul.info li {
 .header__wrap {
   position: relative;
   overflow: hidden;
-  padding: 80px 50px;
+  padding: 105px 50px;
   border-radius: 50px; }
 
 .header__pic {
@@ -2017,7 +2017,9 @@ ul.info li {
   .product__flex img {
     max-width: 100%; }
   .error__box img {
-    width: 100%; } }
+    width: 100%; }
+  .header__content {
+    max-width: 100%; } }
 
 @media (max-width: 991px) {
   input, textarea, select {
@@ -2180,7 +2182,7 @@ ul.info li {
   .main__wrap {
     border-radius: 20px; }
   .main__item p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 15px; }
   h2 {
     font-size: 35px;
