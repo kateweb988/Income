@@ -658,9 +658,11 @@ ul.info li
       z-index: -1
       -webkit-text-stroke: 2px rgba(0, 0, 0, 0.1)
    .swiper1 
-      overflow: visible
-      padding: 24px 0px
+      overflow: hidden
+      padding: 24px
       .swiper-slide 
+         transition: 0.5s
+         opacity: 0
          a 
             display: flex
             align-items: flex-start
@@ -706,6 +708,10 @@ ul.info li
                border: 2px solid $green
                h3 
                   color: $green
+      .swiper-slide-active
+         opacity: 1
+         & + div, & + div + div 
+            opacity: 1
 .arrows 
    position: relative
    div 
